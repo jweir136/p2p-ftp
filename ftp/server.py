@@ -9,4 +9,4 @@ def index(filename):
         return f.read()
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0")
